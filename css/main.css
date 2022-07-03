@@ -1,0 +1,302 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, span, img, ul, li, form, input, button, h3, textarea {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+h1 {
+    color: #272c2f;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+}
+
+h2 {
+    color: #272c2f;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3 {
+    font-size: 17px;
+    color: #c0ddee;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.hat {
+    background: #457b9d;
+    color: #fff;
+    height: 87px;
+    padding: 32px 0 32px 0;
+}
+
+.navigation {
+    padding-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 25px;
+    border-bottom: 2px solid white;
+}
+
+.menu li:hover {
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    background: rgba(0,0,0,0);
+}
+
+.menu a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.tel {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.tel:hover {
+    background: rgba(0,0,0,0);
+    color: yellow;
+    transition-duration: 0.5s, 1s;
+}
+
+.info {
+    background: #ecf1fe;
+}
+
+.banner {
+    padding-top: 72px;
+}
+
+.intro {
+    color: #828899;
+    margin: 0 auto 42px;
+}
+
+.cards {
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cards li {
+    width: 308px;
+    padding: 32px;
+    border: 1px solid #d5d5d5;
+}
+
+.card-two {
+    border-radius: 15px;
+    box-shadow: 0 0 20px #0000007a;
+}
+
+#card-three {
+    margin: 0;
+}
+
+.cards h4 {
+    font-size: 17px;
+    color: #272c2f;
+}
+
+.cards p {
+    font-size: 15px;
+    color: #272c2f;
+    margin-top: 23px;
+}
+
+.more {
+    color: #22a2ec;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+.section {
+    background: #ecf1fe;
+}
+
+.offer {
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.form {
+    margin-top: 40px;
+}
+
+.form input {
+    border: 1px solid #d6d6d6;
+    font-size: 15px;
+    width: 238px;
+    padding: 15px;
+    background: transparent;
+    margin-bottom: 13px;
+}
+
+.send {
+    background: #ebce0d;
+    color: #272c2f;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    width: 165px;
+    text-align: center;
+    padding: 13px;
+    margin: 13px 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.message {
+    width: 355px;
+    height: 125px;
+    border: 1px solid #d6d6d6;
+    font-size: 15px;
+    padding: 15px;
+    background: transparent;
+    margin-bottom: 13px;
+    font-family: Arial, sans-serif;
+    resize: none;
+}
+
+.offer-block {
+    width: 360px;
+}
+
+.def {
+    color: #84898d;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+
+.bord {
+    padding: 40px 45px;
+    margin: 0;
+    width: 545px;
+    height: 455px;
+    background: #184c6b;
+    box-shadow: 0 0 50px #0000007a;
+    border-radius: 10px;
+}
+
+.bord p {
+    font-size: 14px;
+    color: #c0ddee;
+    width: 210px;
+}
+
+.alone  {
+    width: 205px;
+    height: 123px;
+    margin-top: 15px;
+}
+
+.footer {
+    background: #457b9d;
+    width: 100%;
+    height: 100px;
+}
+
+.down {
+    display: flex;
+    text-align: center;
+    padding: 31px 0 29px 0;
+}
+
+.bord-right {
+    margin: 47px 7px 100px 36px;
+}
+
+.all-rule {
+    font-size: 13px;
+    color: #fff;
+}
+
+.down-txt {
+    font-size: 12px;
+    color: #457b9d;
+    width: 230px;
+    height: 40px;
+    background: #fff;
+    padding: 13px;
+    border-radius: 4px;
+}
+
+.down button {
+    width: 145px;
+    height: 38px;
+    font-size: 12px;
+    color: #fff;
+    background: #457b9d;
+    border: 1px solid #fff;
+}
+
+.just-btn {
+    border-radius: 45px;
+}
